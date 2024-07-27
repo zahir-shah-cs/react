@@ -1,8 +1,15 @@
-function App() {
-    
-    return(
-        <h1>React | Zahir Shah</h1>
-    )
-}
+import Chai from "./Chai";
 
-export default App
+function App() {
+    const userName = 'chiar aur code'
+
+    return (
+        <>
+        <Chai />
+        <h1>zahir shah + {userName}</h1>
+
+        </>
+    );
+}
+ 
+export default App;
